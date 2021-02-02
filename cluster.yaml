@@ -1,0 +1,15 @@
+auth:
+  # 'keycloak' or 'auth0'
+  provider: keycloak
+  # e.g., maanaLastKnownGood
+  audience: <my-audience>
+  # e.g., maanaLastKnownGood
+  identifier: <my-identifier>
+  # e.g., lkg-client-auth-secret
+  client_auth_secret: <my-secret>
+  # Change this value ^^^ to match the name of your cluster (e.g. test, dev, etc.)
+  # e.g., https://keycloakdev.knowledge.maana.io:8443
+  domain: <my-domain>
+ckg:
+  # e.g., https://lastknowngood.knowledge.maana.io:8443
+  url: <my-ckg-url>
